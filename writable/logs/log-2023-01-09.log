@@ -1,0 +1,151 @@
+ERROR - 2023-01-09 00:02:17 --> Unknown column 'business_id' in 'where clause'
+CRITICAL - 2023-01-09 00:02:17 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(447): App\Models\BusinessCategoryModel->check_business_cat_subcat('382')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_multiple_business_category()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-09 00:02:47 --> Unknown column 'business_id' in 'where clause'
+CRITICAL - 2023-01-09 00:02:47 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(447): App\Models\BusinessCategoryModel->check_business_cat_subcat('1626')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_multiple_business_category()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 01:04:52 --> fopen(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Filena...', '/var/www/html/a...', 488, Array)
+#1 /var/www/html/app/Controllers/AdminController.php(488): fopen('', 'r')
+#2 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#3 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-01-09 01:09:48 --> Unknown column 'business_id' in 'where clause'
+CRITICAL - 2023-01-09 01:09:48 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(447): App\Models\BusinessCategoryModel->check_business_cat_subcat('1625')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_multiple_business_category()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-09 01:10:11 --> Unknown column 'business_id' in 'where clause'
+CRITICAL - 2023-01-09 01:10:11 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(447): App\Models\BusinessCategoryModel->check_business_cat_subcat('1625')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_multiple_business_category()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-09 01:14:04 --> Unknown column 'business_id' in 'where clause'
+CRITICAL - 2023-01-09 01:14:04 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(447): App\Models\BusinessCategoryModel->check_business_cat_subcat('1625')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_multiple_business_category()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-09 01:14:45 --> Unknown column 'business_id' in 'where clause'
+CRITICAL - 2023-01-09 01:14:45 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(447): App\Models\BusinessCategoryModel->check_business_cat_subcat('1625')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_multiple_business_category()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-09 01:16:01 --> Unknown column 'business_id' in 'where clause'
+CRITICAL - 2023-01-09 01:16:01 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(447): App\Models\BusinessCategoryModel->check_business_cat_subcat('1625')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_multiple_business_category()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 01:44:25 --> Call to a member function getRandomName() on null
+#0 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#1 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-09 03:09:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+#0 /var/www/html/app/Controllers/AdminController.php(516): App\Models\SubCategoryModel->delete_keywords_category('1')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 03:10:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+#0 /var/www/html/app/Controllers/AdminController.php(516): App\Models\SubCategoryModel->delete_keywords_category('1')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 03:10:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+#0 /var/www/html/app/Controllers/AdminController.php(516): App\Models\SubCategoryModel->delete_keywords_category('1')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 03:19:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+#0 /var/www/html/app/Controllers/AdminController.php(491): App\Models\SubCategoryModel->delete_keywords_category('')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 03:25:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+#0 /var/www/html/app/Controllers/AdminController.php(487): App\Models\SubCategoryModel->delete_keywords_category('')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 03:26:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+#0 /var/www/html/app/Controllers/AdminController.php(487): App\Models\SubCategoryModel->delete_keywords_category('')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 03:26:56 --> Call to a member function getResultArray() on null
+#0 /var/www/html/app/Controllers/AdminController.php(487): App\Models\SubCategoryModel->delete_keywords_category('')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-09 03:44:29 --> You can't specify target table 'sub_category_keywords' for update in FROM clause
+CRITICAL - 2023-01-09 03:44:29 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(515): App\Models\SubCategoryModel->delete_keywords_category('312')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-09 03:47:39 --> You can't specify target table 'sub_category_keywords' for update in FROM clause
+CRITICAL - 2023-01-09 03:47:39 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(515): App\Models\SubCategoryModel->delete_keywords_category('312')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->save_upload_keywords_csv()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-09 03:49:39 --> You can't specify target table 'sub_category_keywords' for update in FROM clause
+ERROR - 2023-01-09 03:50:18 --> You can't specify target table 'sub_category_keywords' for update in FROM clause
+ERROR - 2023-01-09 03:51:05 --> You can't specify target table 'sub_category_keywords' for update in FROM clause
+ERROR - 2023-01-09 03:52:44 --> You can't specify target table 'sub_category_keywords' for update in FROM clause
+ERROR - 2023-01-09 03:53:10 --> You can't specify target table 'sub_category_keywords' for update in FROM clause
+ERROR - 2023-01-09 03:56:13 --> You can't specify target table 'sub_category_keywords' for update in FROM clause
+CRITICAL - 2023-01-09 04:22:33 --> syntax error, unexpected '}'
+#0 /var/www/html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}

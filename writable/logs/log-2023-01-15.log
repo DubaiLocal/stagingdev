@@ -1,0 +1,35 @@
+CRITICAL - 2023-01-15 21:50:36 --> Call to undefined method App\Controllers\SeoController::IsloggedIn()
+#0 /var/www/html/system/CodeIgniter.php(832): App\Controllers\SeoController->update_category('restaurants')
+#1 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeoController))
+#2 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-01-15 21:50:50 --> Cannot add or update a child row: a foreign key constraint fails (`dubailocal_dev`.`category_seo`, CONSTRAINT `FK_seo_cat` FOREIGN KEY (`cat_id`) REFERENCES `category` (`id`))
+ERROR - 2023-01-15 21:53:03 --> Cannot add or update a child row: a foreign key constraint fails (`dubailocal_dev`.`category_seo`, CONSTRAINT `FK_seo_cat` FOREIGN KEY (`cat_id`) REFERENCES `category` (`id`))
+ERROR - 2023-01-15 21:53:59 --> Cannot add or update a child row: a foreign key constraint fails (`dubailocal_dev`.`category_seo`, CONSTRAINT `FK_seo_cat` FOREIGN KEY (`cat_id`) REFERENCES `category` (`id`))
+CRITICAL - 2023-01-15 21:58:31 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(210): include()
+#1 /var/www/html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('seo/category/ed...', Array, true)
+#3 /var/www/html/app/Controllers/SeoController.php(129): view('seo/category/ed...', Array)
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\SeoController->edit_category('restaurants')
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeoController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-15 22:17:03 --> Invalid file: seo/subcategory/index.php
+#0 /var/www/html/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seo/subcategory...')
+#1 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('seo/subcategory...', Array, true)
+#2 /var/www/html/app/Controllers/SeoController.php(192): view('seo/subcategory...', Array)
+#3 /var/www/html/system/CodeIgniter.php(832): App\Controllers\SeoController->sub_category_listing('735b90b4568125e...')
+#4 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeoController))
+#5 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-15 23:12:07 --> Call to a member function get_seo_data() on null
+#0 /var/www/html/system/CodeIgniter.php(832): App\Controllers\SeoController->edit_sub_category('c81e728d9d4c2f6...')
+#1 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeoController))
+#2 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-01-15 23:27:26 --> Cannot add or update a child row: a foreign key constraint fails (`dubailocal_dev`.`sub_category_seo`, CONSTRAINT `FK_seo_sub_cat` FOREIGN KEY (`sub_cat_id`) REFERENCES `sub_category` (`id`))

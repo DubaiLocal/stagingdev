@@ -1,0 +1,402 @@
+ERROR - 2022-12-16 03:13:02 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-12-16 03:13:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:22:36 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-12-16 03:22:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:26:44 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-12-16 03:26:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:27:57 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:27:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:28:16 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:28:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:28:25 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:28:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:29:12 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:29:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:29:25 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:29:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:29:58 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:29:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:30:27 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:30:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:30:44 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:30:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:31:10 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:31:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:31:12 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:31:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:31:58 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:31:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:38:15 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:38:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:44:17 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:44:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:45:01 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:45:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:46:11 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:46:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 03:46:25 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 03:46:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 04:34:51 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 04:34:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 04:46:18 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 04:46:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 04:57:39 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-12-16 04:57:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 04:59:43 --> Error connecting to the database: Access denied for user '****'@'172.31.3.43' (using password: YES)
+CRITICAL - 2022-12-16 04:59:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'172.31.3.43' (using password: YES)
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 04:59:45 --> Error connecting to the database: Access denied for user '****'@'172.31.3.43' (using password: YES)
+CRITICAL - 2022-12-16 04:59:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'172.31.3.43' (using password: YES)
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 05:00:11 --> Error connecting to the database: Unknown database 'dubailocal'
+CRITICAL - 2022-12-16 05:00:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dubailocal'
+#0 /var/www/html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/app/Models/CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-16 05:01:47 --> Table 'dubailocal.category' doesn't exist
+CRITICAL - 2022-12-16 05:01:47 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-16 05:12:36 --> Table 'dubailocal.category' doesn't exist
+CRITICAL - 2022-12-16 05:12:36 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-16 05:38:15 --> Duplicate column name 'id'
+ERROR - 2022-12-16 05:38:33 --> Duplicate column name 'id'
+CRITICAL - 2022-12-16 05:58:31 --> Class 'Time' not found
+#0 /var/www/html/system/View/View.php(210): include()
+#1 /var/www/html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('home/template/h...', Array, true)
+#3 /var/www/html/app/Views/home/dubai-explore.php(1): view('home/template/h...')
+#4 /var/www/html/system/View/View.php(210): include('/var/www/html/a...')
+#5 /var/www/html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('home/dubai-expl...', Array, true)
+#7 /var/www/html/app/Controllers/HomeController.php(203): view('home/dubai-expl...', Array)
+#8 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->dubai_explore()
+#9 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-16 05:58:35 --> Class 'Time' not found
+#0 /var/www/html/system/View/View.php(210): include()
+#1 /var/www/html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('home/template/h...', Array, true)
+#3 /var/www/html/app/Views/home/index.php(1): view('home/template/h...')
+#4 /var/www/html/system/View/View.php(210): include('/var/www/html/a...')
+#5 /var/www/html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#7 /var/www/html/app/Controllers/HomeController.php(100): view('home/index', Array)
+#8 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#9 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-16 05:58:37 --> Class 'Time' not found
+#0 /var/www/html/system/View/View.php(210): include()
+#1 /var/www/html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('home/template/h...', Array, true)
+#3 /var/www/html/app/Views/home/index.php(1): view('home/template/h...')
+#4 /var/www/html/system/View/View.php(210): include('/var/www/html/a...')
+#5 /var/www/html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#7 /var/www/html/app/Controllers/HomeController.php(100): view('home/index', Array)
+#8 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#9 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-16 05:58:42 --> Class 'Time' not found
+#0 /var/www/html/system/View/View.php(210): include()
+#1 /var/www/html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('home/template/h...', Array, true)
+#3 /var/www/html/app/Views/home/contact-us.php(1): view('home/template/h...')
+#4 /var/www/html/system/View/View.php(210): include('/var/www/html/a...')
+#5 /var/www/html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('home/contact-us', Array, true)
+#7 /var/www/html/app/Controllers/HomeController.php(437): view('home/contact-us', Array)
+#8 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->contact_us()
+#9 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-16 05:59:05 --> Duplicate column name 'id'
+ERROR - 2022-12-16 05:59:24 --> Duplicate column name 'id'
+ERROR - 2022-12-16 05:59:53 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:00:04 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:00:14 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:00:23 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:01:48 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:02:58 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:03:23 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:09:40 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:12:20 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:12:39 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:12:57 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:13:15 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:19:01 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:20:57 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:23:07 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:30:48 --> Duplicate column name 'id'
+ERROR - 2022-12-16 06:37:43 --> Duplicate column name 'id'
+ERROR - 2022-12-16 22:42:46 --> Duplicate column name 'id'
+ERROR - 2022-12-16 22:44:30 --> Duplicate column name 'id'
+ERROR - 2022-12-16 22:45:41 --> Duplicate column name 'id'
+ERROR - 2022-12-16 22:53:07 --> Duplicate column name 'id'
+ERROR - 2022-12-16 22:53:42 --> Duplicate column name 'id'
+ERROR - 2022-12-16 22:53:59 --> Duplicate column name 'id'
+ERROR - 2022-12-16 22:54:42 --> Duplicate column name 'id'
+ERROR - 2022-12-16 22:55:06 --> Duplicate column name 'id'
+ERROR - 2022-12-16 23:05:40 --> Duplicate column name 'id'

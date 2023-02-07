@@ -1,0 +1,12 @@
+CRITICAL - 2022-12-25 23:40:26 --> Class 'App\Models\SubCategoryModel' not found
+#0 /var/www/html/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->index('c4ca4238a0b9238...')
+#1 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#2 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-25 23:45:03 --> Class 'App\Models\SubCategoryModel' not found
+#0 /var/www/html/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->index('c4ca4238a0b9238...')
+#1 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#2 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}

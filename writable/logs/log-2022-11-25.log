@@ -1,0 +1,28 @@
+CRITICAL - 2022-11-25 01:17:17 --> Call to undefined function App\Controllers\slugify()
+#0 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(832): App\Controllers\CategoryController->update('c4ca4238a0b9238...')
+#1 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#2 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 01:18:08 --> Call to undefined function App\Controllers\slugify()
+#0 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(832): App\Controllers\CategoryController->update('c4ca4238a0b9238...')
+#1 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#2 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 01:20:00 --> Call to undefined function App\Controllers\slugify()
+#0 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(832): App\Controllers\CategoryController->update('c4ca4238a0b9238...')
+#1 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#2 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-25 02:53:41 --> Cannot use object of type stdClass as array
+#0 /home/imah9gjvpbbj/public_html/system/View/View.php(210): include()
+#1 /home/imah9gjvpbbj/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/imah9gjvpbbj/public_html/system/Common.php(1089): CodeIgniter\View\View->render('admin/subcatego...', Array, true)
+#3 /home/imah9gjvpbbj/public_html/app/Controllers/CategoryController.php(194): view('admin/subcatego...', Array)
+#4 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(832): App\Controllers\CategoryController->fetch_subcategory('92c8c96e4c37100...')
+#5 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#6 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/imah9gjvpbbj/public_html/index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}

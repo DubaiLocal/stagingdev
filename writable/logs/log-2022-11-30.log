@@ -1,0 +1,489 @@
+ERROR - 2022-11-30 00:11:16 --> Duplicate column name 'id'
+ERROR - 2022-11-30 00:11:18 --> Duplicate column name 'id'
+ERROR - 2022-11-30 01:30:18 --> Duplicate column name 'id'
+ERROR - 2022-11-30 01:30:45 --> Duplicate column name 'id'
+ERROR - 2022-11-30 01:31:03 --> Duplicate column name 'id'
+ERROR - 2022-11-30 01:31:17 --> Duplicate column name 'id'
+ERROR - 2022-11-30 01:31:35 --> Duplicate column name 'id'
+ERROR - 2022-11-30 01:34:11 --> Duplicate column name 'id'
+CRITICAL - 2022-11-30 03:27:43 --> Call to undefined function App\Controllers\blogBaseURL()
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-30 03:29:02 --> Use of undefined constant BLOG_BASE_URL - assumed 'BLOG_BASE_URL' (this will throw an Error in a future version of PHP)
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/imah9gjvp...', 15, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-30 04:07:12 --> Table 'local_dubai_db.cl_user' doesn't exist
+CRITICAL - 2022-11-30 04:07:12 --> Call to a member function getResultObject() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/UserController.php(49): App\Models\Users->login('shradha.xportso...', 'admin@local2022...')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->user_login()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-30 04:10:06 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-11-30 04:10:11 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+CRITICAL - 2022-11-30 04:10:11 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/UserController.php(83): App\Models\Category->all_categories()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->add_bussiness()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 04:10:45 --> Class 'App\Controllers\Category' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->add_bussiness()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-30 04:12:01 --> Class 'App\Controllers\Bussinesses' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->add_bussiness()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-30 04:12:16 --> Call to undefined method App\Models\CategoryModel::all_categories
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/UserController.php(83): CodeIgniter\Model->__call('all_categories', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->add_bussiness()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 04:14:14 --> Call to undefined method App\Models\BussinessesModel::all_subcategory
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/UserController.php(87): CodeIgniter\Model->__call('all_subcategory', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->add_bussiness()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 04:15:36 --> Call to undefined method App\Models\BussinessesModel::all_sub_categories_category
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/UserController.php(87): CodeIgniter\Model->__call('all_sub_categor...', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->add_bussiness()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 04:16:06 --> Call to undefined method App\Models\BussinessesModel::all_districts
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/UserController.php(89): CodeIgniter\Model->__call('all_districts', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->add_bussiness()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 04:19:00 --> Call to undefined method App\Models\BussinessesModel::all_districts
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/UserController.php(89): CodeIgniter\Model->__call('all_districts', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->add_bussiness()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 04:19:02 --> Call to undefined method App\Models\BussinessesModel::all_districts
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/UserController.php(89): CodeIgniter\Model->__call('all_districts', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->add_bussiness()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 04:19:27 --> Invalid argument supplied for foreach()
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/user/business/add_bussiness.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/imah9gjvp...', 86, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('user/business/a...', Array, true)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/UserController.php(92): view('user/business/a...', Array)
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\UserController->add_bussiness()
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 04:25:17 --> Class 'App\Models\Bussinesses' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(809): App\Controllers\BussinessController->__construct()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-30 04:25:25 --> Class 'App\Models\Bussinesses' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(809): App\Controllers\BussinessController->__construct()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-11-30 04:26:33 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:26:37 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:26:40 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:26:43 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:28:31 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:28:49 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:29:13 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:29:54 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:30:04 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:30:39 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:41:08 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:41:13 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:41:16 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:41:19 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:42:51 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:42:53 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:42:55 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:42:57 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:43:00 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:43:20 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:43:21 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:43:38 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:43:46 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:43:51 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:44:08 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:44:13 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:44:18 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:44:20 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:45:05 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:45:10 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:45:15 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:45:24 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:45:31 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:50:08 --> Duplicate column name 'id'
+ERROR - 2022-11-30 04:50:14 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:16:53 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:24:22 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:25:34 --> Duplicate column name 'id'
+CRITICAL - 2022-11-30 05:26:30 --> Class 'App\Models\Front' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\FrontController->save_claim_business()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-11-30 05:28:27 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:38:19 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:39:22 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:41:05 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:41:33 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:43:46 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:55:17 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:56:01 --> Duplicate column name 'id'
+ERROR - 2022-11-30 05:56:25 --> Duplicate column name 'id'
+ERROR - 2022-11-30 06:08:26 --> Duplicate column name 'id'
+ERROR - 2022-11-30 06:09:36 --> Duplicate column name 'id'
+CRITICAL - 2022-11-30 06:11:24 --> Invalid file: front/sections/business_listing_grid.php
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/sections/...')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('front/sections/...', Array, true)
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/home/index.php(215): view('front/sections/...')
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(77): view('home/index', Array)
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-11-30 06:11:53 --> Duplicate column name 'id'
+CRITICAL - 2022-11-30 06:13:28 --> Invalid argument supplied for foreach()
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/home/sections/business_listing_grid.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/imah9gjvp...', 29, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('home/sections/b...', Array, true)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/home/index.php(215): view('home/sections/b...')
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(77): view('home/index', Array)
+#9 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#10 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#11 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-11-30 06:13:30 --> Invalid argument supplied for foreach()
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/home/sections/business_listing_grid.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/imah9gjvp...', 29, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('home/sections/b...', Array, true)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/home/index.php(215): view('home/sections/b...')
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(77): view('home/index', Array)
+#9 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#10 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#11 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-11-30 06:14:39 --> Invalid argument supplied for foreach()
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/home/sections/business_listing_grid.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/imah9gjvp...', 76, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('home/sections/b...', Array, true)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/home/index.php(215): view('home/sections/b...')
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(77): view('home/index', Array)
+#9 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#10 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#11 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-11-30 06:15:13 --> Invalid argument supplied for foreach()
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/home/sections/business_listing_grid.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/imah9gjvp...', 171, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('home/sections/b...', Array, true)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/home/index.php(215): view('home/sections/b...')
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(77): view('home/index', Array)
+#9 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#10 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#11 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-11-30 06:34:57 --> Duplicate column name 'id'
+ERROR - 2022-11-30 06:35:16 --> Duplicate column name 'id'
+ERROR - 2022-11-30 06:35:58 --> Duplicate column name 'id'
+ERROR - 2022-11-30 06:36:18 --> Duplicate column name 'id'
+ERROR - 2022-11-30 06:52:03 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:15:18 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:15:26 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:16:32 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:16:43 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:16:52 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:17:55 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:18:21 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:19:05 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:19:58 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:20:31 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:20:54 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:20:59 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:21:10 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:21:18 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:22:16 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:22:20 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:22:32 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:22:45 --> Duplicate column name 'id'
+CRITICAL - 2022-11-30 07:22:45 --> Illegal string offset 'name'
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/home/business-listing.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/imah9gjvp...', 7, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('home/business-l...', Array, true)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(281): view('home/business-l...', Array)
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->business_listings_subcategory('asian')
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-30 07:23:00 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:23:29 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:24:06 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:24:06 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:24:22 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:25:48 --> Duplicate column name 'id'
+CRITICAL - 2022-11-30 07:37:17 --> Call to undefined method App\Models\CategoryModel::get_cat_subcategory_slug
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(251): CodeIgniter\Model->__call('get_cat_subcate...', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->business_listings_subcategory('spa-centers')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 07:37:24 --> Call to undefined method App\Models\CategoryModel::get_cat_subcategory_slug
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(251): CodeIgniter\Model->__call('get_cat_subcate...', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->business_listings_subcategory('spa-centers')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 07:37:26 --> Call to undefined method App\Models\CategoryModel::get_cat_subcategory_slug
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(251): CodeIgniter\Model->__call('get_cat_subcate...', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->business_listings_subcategory('auto-repair')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 07:37:31 --> Call to undefined method App\Models\CategoryModel::get_cat_subcategory_slug
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(251): CodeIgniter\Model->__call('get_cat_subcate...', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->business_listings_subcategory('salons')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 07:37:37 --> Call to undefined method App\Models\CategoryModel::get_cat_subcategory_slug
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(251): CodeIgniter\Model->__call('get_cat_subcate...', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->business_listings_subcategory('spa-centers')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 07:37:39 --> Call to undefined method App\Models\CategoryModel::get_cat_subcategory_slug
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/HomeController.php(251): CodeIgniter\Model->__call('get_cat_subcate...', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\HomeController->business_listings_subcategory('asian')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-30 07:38:06 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:38:35 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:39:00 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:42:39 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:42:42 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:48:29 --> Duplicate column name 'id'
+ERROR - 2022-11-30 07:48:38 --> Duplicate column name 'id'
+ERROR - 2022-11-30 08:00:53 --> Duplicate column name 'id'
+ERROR - 2022-11-30 10:15:28 --> Duplicate column name 'id'
+ERROR - 2022-11-30 10:18:35 --> Duplicate column name 'id'
+ERROR - 2022-11-30 10:18:42 --> Duplicate column name 'id'
+ERROR - 2022-11-30 10:18:48 --> Duplicate column name 'id'
+ERROR - 2022-11-30 10:35:01 --> Duplicate column name 'id'
+ERROR - 2022-11-30 10:36:44 --> Duplicate column name 'id'
+ERROR - 2022-11-30 10:52:08 --> Duplicate column name 'id'
+ERROR - 2022-11-30 10:57:07 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:00:22 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:15:35 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:16:49 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:17:01 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:17:02 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:17:49 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:18:02 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:18:25 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:24:25 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:28:50 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:36:21 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:50:14 --> Duplicate column name 'id'
+ERROR - 2022-11-30 11:50:29 --> Duplicate column name 'id'
+ERROR - 2022-11-30 12:19:56 --> Duplicate column name 'id'
+ERROR - 2022-11-30 12:30:44 --> Duplicate column name 'id'
+ERROR - 2022-11-30 13:34:14 --> Duplicate column name 'id'
+ERROR - 2022-11-30 14:17:37 --> Duplicate column name 'id'
+ERROR - 2022-11-30 14:28:13 --> Duplicate column name 'id'
+ERROR - 2022-11-30 20:56:42 --> Duplicate column name 'id'
+ERROR - 2022-11-30 20:58:28 --> Duplicate column name 'id'
+ERROR - 2022-11-30 21:00:21 --> Duplicate column name 'id'
+ERROR - 2022-11-30 21:00:26 --> Duplicate column name 'id'
+ERROR - 2022-11-30 21:30:53 --> Duplicate column name 'id'
+ERROR - 2022-11-30 21:32:09 --> Duplicate column name 'id'
+ERROR - 2022-11-30 21:32:12 --> Duplicate column name 'id'
+ERROR - 2022-11-30 21:43:27 --> Duplicate column name 'id'
+ERROR - 2022-11-30 21:52:11 --> Duplicate column name 'id'
+ERROR - 2022-11-30 21:56:55 --> Duplicate column name 'id'
+ERROR - 2022-11-30 21:56:56 --> Duplicate column name 'id'
+ERROR - 2022-11-30 22:01:17 --> Duplicate column name 'id'
+ERROR - 2022-11-30 22:09:07 --> Duplicate column name 'id'
+ERROR - 2022-11-30 22:11:39 --> Duplicate column name 'id'
+ERROR - 2022-11-30 22:12:01 --> Table 'local_dubai_db.cl_user' doesn't exist
+CRITICAL - 2022-11-30 22:12:01 --> Call to a member function getResultObject() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/AdminController.php(41): App\Models\Admin->login('admin@dubailoca...', 'admin@local2022...')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\AdminController->login()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-30 22:19:29 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-11-30 22:19:29 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-11-30 22:19:29 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-11-30 22:25:37 --> Duplicate column name 'id'
+ERROR - 2022-11-30 22:38:16 --> Duplicate column name 'id'
+ERROR - 2022-11-30 22:49:27 --> Duplicate column name 'id'
+CRITICAL - 2022-11-30 22:59:26 --> Class 'App\Models\Bussinesses' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(809): App\Controllers\BussinessController->__construct()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-30 23:00:38 --> Class 'App\Models\Bussinesses' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->loadRecord()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-11-30 23:03:45 --> Duplicate column name 'id'
+CRITICAL - 2022-11-30 23:06:09 --> Class 'App\Controllers\CategoryModel' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->load_businesses()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-30 23:06:22 --> Call to undefined method App\Models\CategoryModel::all_get_categories
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(32): CodeIgniter\Model->__call('all_get_categor...', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->load_businesses()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 23:08:21 --> Call to undefined method App\Models\CategoryModel::all_get_categories
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(32): CodeIgniter\Model->__call('all_get_categor...', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->load_businesses()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-30 23:11:38 --> Unknown column 'businesses.status' in 'where clause'
+ERROR - 2022-11-30 23:11:38 --> Unknown column 'businesses.status' in 'where clause'
+CRITICAL - 2022-11-30 23:11:38 --> Call to a member function getResult() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(20, 0)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(20, 0)
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(42): CodeIgniter\BaseModel->paginate(20)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->load_businesses()
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-30 23:12:04 --> Call to a member function total_bussiness() on null
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->load_businesses()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-11-30 23:15:13 --> Duplicate column name 'id'
+ERROR - 2022-11-30 23:15:21 --> Duplicate column name 'id'
+CRITICAL - 2022-11-30 23:25:00 --> Class 'App\Controllers\Category' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->create()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-30 23:28:13 --> Call to undefined method App\Models\BussinessesModel::all_featured
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(58): CodeIgniter\Model->__call('all_featured', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->create()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-30 23:30:57 --> Class 'App\Controllers\FeatureModel' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->create()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-30 23:31:12 --> Call to a member function all_subcategory() on null
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->create()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-30 23:32:35 --> Invalid file: admin/bussiness/add_bussiness.php
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/bussiness...')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('admin/bussiness...', Array, true)
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(65): view('admin/bussiness...', Array)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->create()
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-30 23:33:14 --> Invalid argument supplied for foreach()
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/admin/business/add_business.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/imah9gjvp...', 93, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('admin/business/...', Array, true)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(65): view('admin/business/...', Array)
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->create()
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-30 23:53:49 --> Duplicate column name 'id'
+ERROR - 2022-11-30 23:53:56 --> Duplicate column name 'id'
+ERROR - 2022-11-30 23:54:10 --> Duplicate column name 'id'
+ERROR - 2022-11-30 23:54:46 --> Duplicate column name 'id'

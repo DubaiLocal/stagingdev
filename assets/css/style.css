@@ -1,0 +1,60 @@
+/* label.custom {
+
+    font-size: large;
+
+    font-weight: bold;
+
+} */
+
+label.custom {
+	font-size: 16px;
+	color: #3a3a3a;
+}
+label.custom span {
+	color: red;
+}
+label#name-error {
+	color: red;
+}
+.error {
+	color: red;
+}
+select.form-control.error {
+	color: inherit;
+}
+.section_box {
+	background: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px #ccc;
+	margin-bottom: 25px;
+}
+.onclick_box_show {
+	display: none;
+}
+.arrow_down a i {
+	color: #e41c23;
+	transition: 0.3s ease-in;
+}
+.arrow_down {
+	width: 30px;
+	height: 30px;
+	background: #e41c232e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+	margin-left: auto;
+	border: 1px solid #e41c23;
+	box-shadow: 0 0 4px rgba(255, 255, 255, 0.25);
+	transition: 0.3s ease-in;
+}
+.arrow_down:hover {
+	width: 30px;
+	height: 30px;
+	background: #214083;
+	border-color: #214083;
+	cursor: pointer;
+}
+.arrow_down:hover a i {
+	color: #fff;
+}

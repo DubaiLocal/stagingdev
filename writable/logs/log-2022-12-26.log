@@ -1,0 +1,35 @@
+CRITICAL - 2022-12-26 00:22:28 --> Call to undefined method App\Models\BussinessesModel::get_search_business_location
+#0 /var/www/html/app/Controllers/HomeController.php(604): CodeIgniter\Model->__call('get_search_busi...', Array)
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->search_query()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-26 00:23:41 --> Call to undefined method App\Models\BussinessesModel::get_search_business_location
+#0 /var/www/html/app/Controllers/HomeController.php(604): CodeIgniter\Model->__call('get_search_busi...', Array)
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->search_query()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-26 00:26:30 --> Too few arguments to function App\Models\BussinessesModel::get_search_business_location(), 2 passed in /var/www/html/app/Controllers/HomeController.php on line 611 and exactly 3 expected
+#0 /var/www/html/app/Controllers/HomeController.php(611): App\Models\BussinessesModel->get_search_business_location(Array, 'location')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->search_query()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-26 01:19:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2C55.056722)) + sin(radians(25.117869)) * sin(radians(business_detail.lat))) ) ' at line 1
+CRITICAL - 2022-12-26 01:19:24 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/HomeController.php(611): App\Models\BussinessesModel->get_search_business_location(Array, '%2C55.056722', '25.117869')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->search_query()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-26 23:57:21 --> Call to a member function getCompiledSelect() on null
+#0 /var/www/html/system/CodeIgniter.php(832): App\Controllers\BussinessController->load_businesses_search()
+#1 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}

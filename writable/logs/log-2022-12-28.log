@@ -1,0 +1,89 @@
+ERROR - 2022-12-28 01:11:03 --> Unknown column 'business_category.status' in 'where clause'
+CRITICAL - 2022-12-28 01:11:03 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(243): App\Models\BussinessesModel->sub_category_businesses('3')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->sub_category_business()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-28 01:11:10 --> Unknown column 'business_category.status' in 'where clause'
+CRITICAL - 2022-12-28 01:11:10 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(243): App\Models\BussinessesModel->sub_category_businesses('4')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->sub_category_business()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-28 01:11:11 --> Unknown column 'business_category.status' in 'where clause'
+CRITICAL - 2022-12-28 01:11:11 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(243): App\Models\BussinessesModel->sub_category_businesses('3')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->sub_category_business()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-28 01:11:14 --> Unknown column 'business_category.status' in 'where clause'
+CRITICAL - 2022-12-28 01:11:14 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/AdminController.php(243): App\Models\BussinessesModel->sub_category_businesses('4')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->sub_category_business()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-28 04:14:19 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /var/www/html/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /var/www/html/app/Controllers/BussinessController.php(410): CodeIgniter\Images\Handlers\GDHandler->save('assets/subcateg...')
+#2 /var/www/html/system/CodeIgniter.php(832): App\Controllers\BussinessController->update('5ca3e9b122f61f8...')
+#3 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#4 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 04:14:57 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /var/www/html/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /var/www/html/app/Controllers/BussinessController.php(410): CodeIgniter\Images\Handlers\GDHandler->save('assets/subcateg...')
+#2 /var/www/html/system/CodeIgniter.php(832): App\Controllers\BussinessController->update('5ca3e9b122f61f8...')
+#3 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#4 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 04:15:10 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /var/www/html/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /var/www/html/app/Controllers/BussinessController.php(410): CodeIgniter\Images\Handlers\GDHandler->save('assets/subcateg...')
+#2 /var/www/html/system/CodeIgniter.php(832): App\Controllers\BussinessController->update('5ca3e9b122f61f8...')
+#3 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#4 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 04:17:21 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /var/www/html/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /var/www/html/app/Controllers/BussinessController.php(410): CodeIgniter\Images\Handlers\GDHandler->save('assets/subcateg...')
+#2 /var/www/html/system/CodeIgniter.php(832): App\Controllers\BussinessController->update('5ca3e9b122f61f8...')
+#3 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#4 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 04:45:00 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /var/www/html/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /var/www/html/app/Controllers/BussinessController.php(410): CodeIgniter\Images\Handlers\GDHandler->save('assets/subcateg...')
+#2 /var/www/html/system/CodeIgniter.php(832): App\Controllers\BussinessController->update('5ca3e9b122f61f8...')
+#3 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#4 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 04:49:30 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /var/www/html/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /var/www/html/app/Controllers/BussinessController.php(410): CodeIgniter\Images\Handlers\GDHandler->save('assets/subcateg...')
+#2 /var/www/html/system/CodeIgniter.php(832): App\Controllers\BussinessController->update('5ca3e9b122f61f8...')
+#3 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#4 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 04:50:09 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /var/www/html/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /var/www/html/app/Controllers/BussinessController.php(410): CodeIgniter\Images\Handlers\GDHandler->save('assets/subcateg...')
+#2 /var/www/html/system/CodeIgniter.php(832): App\Controllers\BussinessController->update('5ca3e9b122f61f8...')
+#3 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#4 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-28 23:39:37 --> Cannot add or update a child row: a foreign key constraint fails (`dubailocal_dev`.`business`, CONSTRAINT `FK_business_district` FOREIGN KEY (`district_id`) REFERENCES `district` (`id`))

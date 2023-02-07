@@ -1,0 +1,34 @@
+CRITICAL - 2023-02-05 08:59:50 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /var/www/html/app/Models/SubCategoryModel.php on line 98
+#0 /var/www/html/app/Models/SubCategoryModel.php(98): CodeIgniter\Database\BaseBuilder->like('sub_category_ke...', NULL)
+#1 /var/www/html/app/Controllers/HomeController.php(1741): App\Models\SubCategoryModel->find_keywords_test(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->search_query()
+#3 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-02-05 08:59:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ LIMIT 6' at line 6
+CRITICAL - 2023-02-05 08:59:50 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/HomeController.php(1741): App\Models\SubCategoryModel->find_keywords_test(Array, '')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->search_query()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-02-05 16:55:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ LIMIT 6' at line 6
+CRITICAL - 2023-02-05 16:55:04 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/app/Controllers/HomeController.php(1741): App\Models\SubCategoryModel->find_keywords_test(Array, '')
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->search_query()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-05 16:55:05 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /var/www/html/app/Models/SubCategoryModel.php on line 98
+#0 /var/www/html/app/Models/SubCategoryModel.php(98): CodeIgniter\Database\BaseBuilder->like('sub_category_ke...', NULL)
+#1 /var/www/html/app/Controllers/HomeController.php(1741): App\Models\SubCategoryModel->find_keywords_test(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(832): App\Controllers\HomeController->search_query()
+#3 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}

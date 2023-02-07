@@ -1,0 +1,102 @@
+ERROR - 2022-12-04 21:16:16 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-04 21:16:16 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-04 21:16:16 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-04 21:20:11 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-04 21:20:11 --> Table 'local_dubai_db.businesses' doesn't exist
+CRITICAL - 2022-12-04 21:20:21 --> Class 'App\Models\Category' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\CategoryController->index()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-04 21:20:25 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-04 21:20:25 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-04 21:21:38 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-04 21:22:20 --> Table 'local_dubai_db.businesses' doesn't exist
+CRITICAL - 2022-12-04 21:23:14 --> Class 'App\Models\Category' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\CategoryController->index()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-04 21:24:46 --> Class 'App\Models\Category' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\CategoryController->index()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-04 21:25:06 --> Invalid file: admin/category/index.php
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/category/...')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('admin/category/...', Array, true)
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/CategoryController.php(22): view('admin/category/...', Array)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\CategoryController->index()
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-04 22:15:33 --> Class 'App\Controllers\Category' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\CategoryController->edit('49cfbe257fc2454...')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-04 22:15:52 --> Call to undefined method App\Models\CategoryModel::edit
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/CategoryController.php(62): CodeIgniter\Model->__call('edit', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\CategoryController->edit('49cfbe257fc2454...')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-04 22:31:41 --> syntax error, unexpected '.'
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-12-04 23:08:42 --> Class 'App\Controllers\Category' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\CategoryController->update('eddea82ad2755b2...')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-04 23:09:02 --> finfo_file(/tmp/php8gALbL): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(/tmp...', '/home/imah9gjvp...', 109, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Files/File.php(109): finfo_file(Resource id #29, '/tmp/php8gALbL')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/HTTP/Files/UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/HTTP/Files/UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Files/File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/CategoryController.php(135): CodeIgniter\Files\File->getRandomName()
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\CategoryController->update('eddea82ad2755b2...')
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-04 23:09:44 --> finfo_file(/tmp/phpQIwaFu): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(/tmp...', '/home/imah9gjvp...', 109, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Files/File.php(109): finfo_file(Resource id #21, '/tmp/phpQIwaFu')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/HTTP/Files/UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/HTTP/Files/UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Files/File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/CategoryController.php(135): CodeIgniter\Files\File->getRandomName()
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\CategoryController->update('eddea82ad2755b2...')
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-04 23:11:15 --> Unknown column 'modified' in 'field list'
+ERROR - 2022-12-04 23:12:41 --> Unknown column 'modified' in 'field list'
+ERROR - 2022-12-04 23:13:26 --> Unknown column 'modified' in 'field list'
+ERROR - 2022-12-04 23:14:36 --> Unknown column 'modified' in 'field list'
+ERROR - 2022-12-04 23:16:56 --> Unknown column 'modified' in 'field list'
+ERROR - 2022-12-04 23:19:08 --> Unknown column 'modified' in 'field list'
+ERROR - 2022-12-04 23:19:41 --> Unknown column 'modified' in 'field list'
+ERROR - 2022-12-04 23:20:56 --> Unknown column 'modified' in 'field list'
+ERROR - 2022-12-04 23:21:55 --> Unknown column 'modified' in 'field list'
+ERROR - 2022-12-04 23:22:52 --> Unknown column 'modified' in 'field list'
+ERROR - 2022-12-04 23:42:30 --> Duplicate column name 'id'
+CRITICAL - 2022-12-04 23:54:06 --> Call to undefined method App\Models\CategoryModel::allCategories
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/CategoryController.php(18): CodeIgniter\Model->__call('allCategories', Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\CategoryController->index()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}

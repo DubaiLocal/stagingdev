@@ -1,0 +1,9 @@
+ERROR - 2022-12-18 22:55:53 --> Cannot add or update a child row: a foreign key constraint fails (`dubailocal`.`business`, CONSTRAINT `FK_business_district` FOREIGN KEY (`district_id`) REFERENCES `district` (`id`))
+ERROR - 2022-12-18 22:58:12 --> Cannot add or update a child row: a foreign key constraint fails (`dubailocal`.`business`, CONSTRAINT `FK_business_district` FOREIGN KEY (`district_id`) REFERENCES `district` (`id`))
+ERROR - 2022-12-18 23:03:30 --> Duplicate column name 'id'
+ERROR - 2022-12-18 23:40:26 --> Duplicate column name 'id'
+ERROR - 2022-12-18 23:41:40 --> Duplicate column name 'id'
+ERROR - 2022-12-18 23:47:04 --> Duplicate column name 'id'
+ERROR - 2022-12-18 23:47:11 --> Duplicate column name 'id'
+ERROR - 2022-12-18 23:47:20 --> Duplicate column name 'id'
+ERROR - 2022-12-18 23:48:11 --> Duplicate column name 'id'

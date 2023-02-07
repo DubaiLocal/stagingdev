@@ -1,0 +1,7 @@
+CRITICAL - 2023-01-03 01:02:58 --> Call to a member function getResultArray() on null
+#0 /var/www/html/app/Controllers/CategoryController.php(18): App\Models\CategoryModel->allCategoriesSubCategoryCount()
+#1 /var/www/html/system/CodeIgniter.php(832): App\Controllers\CategoryController->index()
+#2 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#3 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}

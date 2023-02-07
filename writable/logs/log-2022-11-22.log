@@ -1,0 +1,7 @@
+CRITICAL - 2022-11-22 04:55:05 --> Invalid argument supplied for foreach()
+#0 /home/imah9gjvpbbj/public_html/app/Controllers/FrontController.php(683): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/imah9gjvp...', 683, Array)
+#1 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(832): App\Controllers\FrontController->test_error()
+#2 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontController))
+#3 /home/imah9gjvpbbj/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}

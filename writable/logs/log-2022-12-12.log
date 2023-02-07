@@ -1,0 +1,30 @@
+CRITICAL - 2022-12-12 03:38:09 --> Class 'App\Controllers\Category' not found
+#0 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(832): App\Controllers\BussinessController->single_business_preview('f52378e14237225...')
+#1 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\local-dubai-virus\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 03:47:29 --> Invalid file: front/bussiness_detail.php
+#0 C:\xampp\htdocs\local-dubai-virus\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/bussiness...')
+#1 C:\xampp\htdocs\local-dubai-virus\system\Common.php(1089): CodeIgniter\View\View->render('front/bussiness...', Array, true)
+#2 C:\xampp\htdocs\local-dubai-virus\app\Controllers\BussinessController.php(418): view('front/bussiness...', Array)
+#3 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(832): App\Controllers\BussinessController->single_business_preview('test-it-service...')
+#4 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#5 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\local-dubai-virus\index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 04:16:04 --> Class 'App\Controllers\Bussinesses' not found
+#0 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(832): App\Controllers\BussinessController->update_business_pending_status()
+#1 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\local-dubai-virus\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 04:50:24 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\local-dubai-virus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\local-dubai-virus\system\Common.php(1089): CodeIgniter\View\View->render('home/bussiness_...', Array, true)
+#2 C:\xampp\htdocs\local-dubai-virus\app\Controllers\BussinessController.php(459): view('home/bussiness_...', Array)
+#3 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(832): App\Controllers\BussinessController->single_business_preview('test-it-service...')
+#4 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#5 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\local-dubai-virus\index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}

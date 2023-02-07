@@ -1,0 +1,17 @@
+CRITICAL - 2022-12-27 05:55:56 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/move-subcategory-business.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 31, Array)
+#1 /var/www/html/system/View/View.php(210): include('/var/www/html/a...')
+#2 /var/www/html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/system/Common.php(1089): CodeIgniter\View\View->render('admin/move-subc...', Array, true)
+#4 /var/www/html/app/Controllers/AdminController.php(231): view('admin/move-subc...')
+#5 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->move_subcategory_business()
+#6 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 05:56:06 --> Call to a member function allCategoriesActive() on null
+#0 /var/www/html/system/CodeIgniter.php(832): App\Controllers\AdminController->move_subcategory_business()
+#1 /var/www/html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 /var/www/html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}

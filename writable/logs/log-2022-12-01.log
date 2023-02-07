@@ -1,0 +1,430 @@
+ERROR - 2022-12-01 00:10:05 --> Duplicate column name 'id'
+ERROR - 2022-12-01 00:41:59 --> Duplicate column name 'id'
+CRITICAL - 2022-12-01 00:57:16 --> Class 'App\Controllers\Bussinesses' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->pending_business()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-01 00:57:54 --> Unknown column 'business.verified' in 'where clause'
+CRITICAL - 2022-12-01 00:57:54 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(177): App\Models\BussinessesModel->allpending_business()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->pending_business()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 01:01:45 --> Unknown column 'business_detail.status' in 'where clause'
+CRITICAL - 2022-12-01 01:01:45 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(177): App\Models\BussinessesModel->allpending_business()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->pending_business()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 01:13:46 --> Unknown column 'business_detail.status' in 'where clause'
+CRITICAL - 2022-12-01 01:13:46 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(177): App\Models\BussinessesModel->allpending_business()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->pending_business()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-01 01:21:38 --> Call to a member function edit() on null
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->pending_edit('cf1f78fe923afe0...')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-01 01:23:58 --> Call to a member function all_featured() on null
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->pending_edit('cf1f78fe923afe0...')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-01 01:26:41 --> Duplicate column name 'id'
+ERROR - 2022-12-01 01:26:47 --> Duplicate column name 'id'
+ERROR - 2022-12-01 01:27:05 --> Duplicate column name 'id'
+ERROR - 2022-12-01 01:27:11 --> Duplicate column name 'id'
+CRITICAL - 2022-12-01 01:27:14 --> Invalid argument supplied for foreach()
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Views/admin/business/edit.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/imah9gjvp...', 109, Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(210): include('/home/imah9gjvp...')
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('admin/business/...', Array, true)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(202): view('admin/business/...', Array)
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->pending_edit('cf1f78fe923afe0...')
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#7 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 01:27:42 --> Duplicate column name 'id'
+ERROR - 2022-12-01 01:28:00 --> Duplicate column name 'id'
+ERROR - 2022-12-01 01:38:17 --> Duplicate column name 'id'
+ERROR - 2022-12-01 01:55:36 --> Duplicate column name 'id'
+ERROR - 2022-12-01 01:57:23 --> Duplicate column name 'id'
+ERROR - 2022-12-01 01:57:35 --> Duplicate column name 'id'
+ERROR - 2022-12-01 02:04:09 --> Duplicate column name 'id'
+ERROR - 2022-12-01 02:07:46 --> Duplicate column name 'id'
+CRITICAL - 2022-12-01 02:21:20 --> Invalid file: admin/bussiness/edit.php
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/bussiness...')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/Common.php(1089): CodeIgniter\View\View->render('admin/bussiness...', Array, true)
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/BussinessController.php(230): view('admin/bussiness...', Array)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\BussinessController->edit('6a5889bb0190d02...')
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-01 03:06:51 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:06:51 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:06:51 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:54:28 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:54:28 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:54:28 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:54:34 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:54:34 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:54:34 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:54:36 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:54:36 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:54:36 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:08 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:55:08 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:08 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:19 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:55:19 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:19 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:20 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:55:20 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:20 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:23 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:55:23 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:23 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:24 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:55:24 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:24 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:24 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:55:24 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:24 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:24 --> Table 'local_dubai_db.categories_3_4_2015' doesn't exist
+ERROR - 2022-12-01 03:55:24 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 03:55:24 --> Table 'local_dubai_db.businesses' doesn't exist
+ERROR - 2022-12-01 04:01:48 --> Unknown column 'Array' in 'where clause'
+CRITICAL - 2022-12-01 04:01:48 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(45): App\Models\SubCategoryModel->find_keywords(Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 04:01:48 --> Unknown column 'Array' in 'where clause'
+CRITICAL - 2022-12-01 04:01:48 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(45): App\Models\SubCategoryModel->find_keywords(Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 04:02:33 --> Unknown column 'Array' in 'where clause'
+CRITICAL - 2022-12-01 04:02:33 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(45): App\Models\SubCategoryModel->find_keywords(Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 04:02:33 --> Unknown column 'Array' in 'where clause'
+CRITICAL - 2022-12-01 04:02:33 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(45): App\Models\SubCategoryModel->find_keywords(Array)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 04:29:31 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:29:47 --> Duplicate column name 'id'
+CRITICAL - 2022-12-01 04:37:36 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Models/SubCategoryModel.php on line 60
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Models/SubCategoryModel.php(60): CodeIgniter\Database\BaseBuilder->like('name', NULL)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(52): App\Models\SubCategoryModel->find_keywords(Array, NULL)
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-01 04:37:36 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Models/SubCategoryModel.php on line 60
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Models/SubCategoryModel.php(60): CodeIgniter\Database\BaseBuilder->like('name', NULL)
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(52): App\Models\SubCategoryModel->find_keywords(Array, NULL)
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-01 04:41:40 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-12-01 04:41:40 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(52): App\Models\SubCategoryModel->find_keywords(Array, 'asd')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 04:41:40 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-12-01 04:41:40 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(52): App\Models\SubCategoryModel->find_keywords(Array, 'asd')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 04:41:40 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-12-01 04:41:40 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(52): App\Models\SubCategoryModel->find_keywords(Array, 'asd')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 04:41:45 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-12-01 04:41:45 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(52): App\Models\SubCategoryModel->find_keywords(Array, 'asd')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 04:41:46 --> Column 'name' in field list is ambiguous
+CRITICAL - 2022-12-01 04:41:46 --> Call to a member function getResultArray() on bool
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(52): App\Models\SubCategoryModel->find_keywords(Array, 'asd')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 04:41:50 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:42:43 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:43:22 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:43:33 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:43:52 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:45:02 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:45:06 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:45:53 --> Duplicate column name 'id'
+CRITICAL - 2022-12-01 04:47:40 --> Call to a member function getResultArray() on null
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(52): App\Models\SubCategoryModel->find_keywords(Array, 'bes')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-01 04:47:40 --> Call to a member function getResultArray() on null
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/app/Controllers/SubCategoryController.php(52): App\Models\SubCategoryModel->find_keywords(Array, 'best')
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 04:49:57 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:50:35 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:50:39 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:51:10 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:52:22 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:52:49 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:52:52 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:52:56 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:54:47 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:54:51 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:57:14 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:57:18 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:58:58 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:59:01 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:59:18 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:59:28 --> Duplicate column name 'id'
+ERROR - 2022-12-01 04:59:52 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:00:00 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:00:40 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:01:27 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:01:31 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:03:17 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:03:21 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:03:22 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:08:39 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:08:43 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:09:21 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:12:01 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:12:07 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:12:18 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:12:22 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:12:26 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:12:30 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:16:38 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:20:16 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:20:27 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:20:32 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:20:34 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:20:59 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:21:05 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:21:28 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:21:55 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:22:58 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:23:06 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:23:14 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:24:41 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:28:42 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:31:47 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:31:54 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:32:11 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:32:51 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:33:03 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:33:08 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:33:56 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:34:08 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:34:44 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:39:36 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:48:37 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:49:06 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:49:57 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:51:01 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:51:25 --> Duplicate column name 'id'
+ERROR - 2022-12-01 05:53:02 --> Duplicate column name 'id'
+CRITICAL - 2022-12-01 05:59:13 --> Class 'App\Models\SubCategoryModel' not found
+#0 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(832): App\Controllers\SubCategoryController->get_subcategories_cat()
+#1 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoryController))
+#2 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/imah9gjvpbbj/public_html/dubailocaldev.xportsoft-folio.com/index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-01 05:59:43 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:00:02 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:02:45 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:02:48 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:03:05 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:05:12 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:05:52 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:05:55 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:09:57 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:14:50 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:15:09 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:17:09 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:17:37 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:17:42 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:17:45 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:17:58 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:18:40 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:18:48 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:19:39 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:19:44 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:19:48 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:20:42 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:20:46 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:20:49 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:20:52 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:20:54 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:22:26 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:22:42 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:24:19 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:26:04 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:32:37 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:32:43 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:37:51 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:38:03 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:38:09 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:38:13 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:38:16 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:38:19 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:38:24 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:39:34 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:39:37 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:39:40 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:39:42 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:40:31 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:40:45 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:40:48 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:40:52 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:42:58 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:43:03 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:43:05 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:43:08 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:43:11 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:43:14 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:47:09 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:47:12 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:51:29 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:54:19 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:55:30 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:55:33 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:56:09 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:57:57 --> Duplicate column name 'id'
+ERROR - 2022-12-01 06:59:41 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:00:40 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:03:50 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:04:21 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:04:45 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:04:49 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:05:11 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:05:15 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:07:59 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:08:02 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:08:04 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:08:05 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:08:09 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:08:13 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:08:20 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:09:07 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:09:12 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:09:17 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:09:50 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:09:57 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:11:44 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:12:35 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:12:43 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:12:48 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:12:53 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:12:56 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:13:01 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:16:09 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:16:12 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:16:16 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:21:56 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:21:58 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:22:03 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:22:08 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:22:12 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:22:27 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:23:43 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:23:48 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:23:52 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:23:55 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:33:19 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:33:46 --> Duplicate column name 'id'
+ERROR - 2022-12-01 07:34:09 --> Duplicate column name 'id'
+ERROR - 2022-12-01 09:45:15 --> Duplicate column name 'id'
+ERROR - 2022-12-01 09:46:18 --> Duplicate column name 'id'
+ERROR - 2022-12-01 09:47:14 --> Duplicate column name 'id'
+ERROR - 2022-12-01 09:47:14 --> Duplicate column name 'id'
+ERROR - 2022-12-01 09:59:06 --> Duplicate column name 'id'
+ERROR - 2022-12-01 09:59:27 --> Duplicate column name 'id'
+ERROR - 2022-12-01 10:00:26 --> Duplicate column name 'id'
+ERROR - 2022-12-01 10:00:54 --> Duplicate column name 'id'
+ERROR - 2022-12-01 10:11:22 --> Duplicate column name 'id'
+ERROR - 2022-12-01 10:11:29 --> Duplicate column name 'id'
+ERROR - 2022-12-01 10:25:29 --> Duplicate column name 'id'
+ERROR - 2022-12-01 10:27:09 --> Duplicate column name 'id'
+ERROR - 2022-12-01 10:27:14 --> Duplicate column name 'id'
+ERROR - 2022-12-01 10:32:14 --> Duplicate column name 'id'
+ERROR - 2022-12-01 10:50:28 --> Duplicate column name 'id'
+ERROR - 2022-12-01 11:07:52 --> Duplicate column name 'id'
+ERROR - 2022-12-01 11:08:02 --> Duplicate column name 'id'
+ERROR - 2022-12-01 11:08:32 --> Duplicate column name 'id'
+ERROR - 2022-12-01 11:08:39 --> Duplicate column name 'id'
+ERROR - 2022-12-01 11:09:13 --> Duplicate column name 'id'
+ERROR - 2022-12-01 11:26:10 --> Duplicate column name 'id'
+ERROR - 2022-12-01 22:08:36 --> Duplicate column name 'id'
+ERROR - 2022-12-01 22:16:01 --> Duplicate column name 'id'
+ERROR - 2022-12-01 22:21:24 --> Duplicate column name 'id'
+ERROR - 2022-12-01 22:40:31 --> Duplicate column name 'id'
+ERROR - 2022-12-01 22:50:33 --> Duplicate column name 'id'
+ERROR - 2022-12-01 23:00:20 --> Duplicate column name 'id'
+ERROR - 2022-12-01 23:00:56 --> Duplicate column name 'id'
+ERROR - 2022-12-01 23:06:01 --> Duplicate column name 'id'
+ERROR - 2022-12-01 23:06:11 --> Duplicate column name 'id'
+ERROR - 2022-12-01 23:37:36 --> Duplicate column name 'id'
+ERROR - 2022-12-01 23:38:12 --> Duplicate column name 'id'
+ERROR - 2022-12-01 23:40:34 --> Duplicate column name 'id'
+ERROR - 2022-12-01 23:45:46 --> Duplicate column name 'id'
+ERROR - 2022-12-01 23:53:07 --> Duplicate column name 'id'
+ERROR - 2022-12-01 23:56:08 --> Duplicate column name 'id'

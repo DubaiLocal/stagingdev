@@ -1,0 +1,4 @@
+ERROR - 2022-12-13 00:16:06 --> Cannot add or update a child row: a foreign key constraint fails (`local_dubai_virus`.`business_detail`, CONSTRAINT `FK_business` FOREIGN KEY (`business_id`) REFERENCES `business` (`id`))
+ERROR - 2022-12-13 00:19:49 --> Cannot add or update a child row: a foreign key constraint fails (`local_dubai_virus`.`business_category`, CONSTRAINT `FK_businesses` FOREIGN KEY (`business_id`) REFERENCES `business` (`id`))
+ERROR - 2022-12-13 00:22:13 --> Cannot add or update a child row: a foreign key constraint fails (`local_dubai_virus`.`business_category`, CONSTRAINT `FK_businesses` FOREIGN KEY (`business_id`) REFERENCES `business` (`id`))
+ERROR - 2022-12-13 00:22:37 --> Cannot add or update a child row: a foreign key constraint fails (`local_dubai_virus`.`business_category`, CONSTRAINT `FK_businesses` FOREIGN KEY (`business_id`) REFERENCES `business` (`id`))

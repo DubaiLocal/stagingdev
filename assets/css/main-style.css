@@ -1,0 +1,99 @@
+.page_head_text h3 {
+    color: #214083;
+    font-size: 22px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 13px;
+    font-weight: 600;
+}
+
+.page_head_text h3:before {
+    position: absolute;
+    content: "";
+    width: 37px;
+    height: 3px;
+    left: 0;
+    bottom: -1px;
+    background: #e41c23;
+    border-radius: 20px;
+}
+
+.data_box {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.data_box:hover {
+    transform: scale(1.01);
+}
+
+.data_text h4 {
+    color: #222222;
+    font-size: 18px;
+}
+
+.data_text p {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.data_icon {
+    width: 65px;
+    height: 65px;
+    background: #e41c230d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: 0 0 0 4px #e41c2317;
+    margin-left: auto;
+}
+
+.data_icon i {
+    font-size: 26px;
+    color: #e41c23;
+}
+
+.claimed_green {
+    background: #0080000d;
+    box-shadow: 0 0 0 4px #00800017;
+}
+
+.claimed_green i {
+    color: #008000;
+}
+
+.probablity span {
+    background: green;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 20px;
+    line-height: normal;
+    margin-right: 5px;
+}
+
+.probablity {
+    font-size: 14px;
+    color: #666;
+}
+
+.profile_box {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.profile_box h4 {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,45 @@
+ERROR - 2022-12-08 06:45:51 --> Duplicate column name 'id'
+ERROR - 2022-12-08 22:09:56 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-12-08 22:09:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\local-dubai-virus\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\local-dubai-virus\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\local-dubai-virus\app\Models\CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\local-dubai-virus\app\Controllers\HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\local-dubai-virus\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-08 22:15:16 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-12-08 22:15:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\local-dubai-virus\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\local-dubai-virus\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\local-dubai-virus\app\Models\CategoryModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\local-dubai-virus\app\Controllers\HomeController.php(23): App\Models\CategoryModel->menu_categories()
+#4 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\local-dubai-virus\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-08 22:44:41 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 C:\xampp\htdocs\local-dubai-virus\system\Images\Handlers\GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 C:\xampp\htdocs\local-dubai-virus\app\Controllers\BussinessController.php(105): CodeIgniter\Images\Handlers\GDHandler->save('assets/subcateg...')
+#2 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(832): App\Controllers\BussinessController->save()
+#3 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BussinessController))
+#4 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\local-dubai-virus\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-08 22:45:25 --> Column 'url' cannot be null
+ERROR - 2022-12-08 22:46:13 --> Column 'url' cannot be null
+ERROR - 2022-12-08 22:47:03 --> Column 'url' cannot be null
+ERROR - 2022-12-08 22:48:39 --> Column 'url' cannot be null
+ERROR - 2022-12-08 22:50:50 --> Column 'url' cannot be null
+ERROR - 2022-12-08 22:57:36 --> Column 'url' cannot be null
+CRITICAL - 2022-12-08 23:10:04 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(832): App\Controllers\HomeController->single_business('test-it-service...')
+#1 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 C:\xampp\htdocs\local-dubai-virus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\local-dubai-virus\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 {main}
